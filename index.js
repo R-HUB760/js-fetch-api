@@ -13,4 +13,4 @@ function showDataFromApi(data){
   document.querySelector('.blockquote').innerHTML = data.quote;
 }
 
-setInterval(fetchApi, 4000);
+setInterval(fetchApi, 2000);
