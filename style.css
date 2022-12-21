@@ -1,3 +1,22 @@
-.cen{
+
+body{
+  display: grid;
+  place-items: center;
+  background: url('bird.jpg')fixed center no-repeat;
+background-size: cover;
   min-height: 100vh;
+  text-align: center;
+}
+.layer{
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  backdrop-filter: blur(0.2vh);
+  border: 1px solid currentColor;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  padding: 5rem;
+  max-width: 920px;
+  opacity: .8;
+  background: repeating-radial-gradient(circle,green,blue,orange);
 }
